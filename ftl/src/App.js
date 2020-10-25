@@ -4,6 +4,8 @@ import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import DialogContent from "@material-ui/core/DialogContent";
 import Dialog from "@material-ui/core/Dialog";
+import DialogActions from "@material-ui/core/DialogActions";
+import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import { withStyles } from "@material-ui/core/styles";
 
@@ -91,6 +93,11 @@ class App extends React.Component {
 							</Grid>
 						</Grid>
 					</DialogContent>
+					<DialogActions>
+						<Button onClick={() => this.setState({ dialogOpen: false })} color="primary">
+							Close
+         				</Button>
+					</DialogActions>
 				</Dialog>
 			</Container>
 		);
