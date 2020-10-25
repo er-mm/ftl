@@ -5,8 +5,6 @@ import Typography from "@material-ui/core/Typography";
 import DialogContent from "@material-ui/core/DialogContent";
 import Dialog from "@material-ui/core/Dialog";
 import Grid from "@material-ui/core/Grid";
-import blue from "@material-ui/core/colors/blue";
-import AddPhotoAlternateIcon from "@material-ui/icons/AddPhotoAlternate";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
